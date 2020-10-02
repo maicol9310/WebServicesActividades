@@ -9,6 +9,7 @@ namespace WebAppSer.Controllers
 {
     public class HomeController : Controller
     {
+
         [AuthorizeUser(idOperacion: 1)]
         public ActionResult Index()
         {

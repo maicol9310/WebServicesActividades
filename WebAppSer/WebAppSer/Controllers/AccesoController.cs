@@ -17,6 +17,7 @@ namespace WebAppSer.Controllers
         [HttpPost]
         public ActionResult Login(string User, string Pass)
         {
+
             try
             {
                 using (Models.TestEntities db = new Models.TestEntities())
@@ -29,12 +30,11 @@ namespace WebAppSer.Controllers
                         ViewBag.Error = "Usuario o contraseña invalida";
                         return View();
                     }
-
+                    
                     Session["User"] = oUser;
 
-                    string str;
-
-                    str = oUser.email;
+                    System.Web.HttpContext.Current.Session["VarEmail"] = oUser.email;
+                    
 
                 }
 
