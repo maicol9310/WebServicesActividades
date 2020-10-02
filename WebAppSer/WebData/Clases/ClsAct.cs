@@ -45,6 +45,7 @@ namespace WebData.Clases
             catch (Exception ex) { throw ex; }
             finally { sqlConnection.Close(); }
         }
+
     }
 
 }

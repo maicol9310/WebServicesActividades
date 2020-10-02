@@ -55,3 +55,4 @@ C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebA
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\ServicioAct\obj\Debug\ServicioAct.csproj.CopyComplete
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\ServicioAct\obj\Debug\ServicioAct.dll
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\ServicioAct\obj\Debug\ServicioAct.pdb
+C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\ServicioAct\obj\Debug\ServicioAct.csprojAssemblyReference.cache

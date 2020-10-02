@@ -525,8 +525,8 @@ C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebA
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\obj\Debug\WebAppSer.csprojAssemblyReference.cache
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\obj\Debug\WebAppSer.csproj.CoreCompileInputs.cache
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\obj\Debug\WebAppSer.csproj.CopyComplete
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\obj\Debug\WebAppSer.dll
 C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\obj\Debug\WebAppSer.pdb
+C:\Users\Barbatos\Desktop\.Net - Jan Michael Sanchez\WebServicesActividades\WebAppSer\WebAppSer\obj\Debug\WebAppSer.csprojAssemblyReference.cache

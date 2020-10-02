@@ -19,6 +19,14 @@
             <hr />
             <asp:Label ID="Label3" runat="server"></asp:Label>
         </div> 
+        <div>
+            <asp:GridView ID="GridView1" runat="server">
+		    </asp:GridView>	
+        </div>
+        <br />
+        <div>
+             <a href="http://localhost:60682" class="button">Go to Back</a>
+        </div>
     </form>
 </body>
 </html>

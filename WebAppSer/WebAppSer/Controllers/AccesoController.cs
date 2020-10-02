@@ -34,7 +34,8 @@ namespace WebAppSer.Controllers
                     Session["User"] = oUser;
 
                     System.Web.HttpContext.Current.Session["VarEmail"] = oUser.email;
-                    
+                    System.Web.HttpContext.Current.Session["Email"] = oUser.email;
+
 
                 }
 
