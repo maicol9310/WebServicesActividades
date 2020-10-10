@@ -40,6 +40,8 @@ namespace WebAppSer
 
             TextBox1.Text = string.Empty;
 
+            Page_Load(null, EventArgs.Empty);
+
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -47,7 +49,8 @@ namespace WebAppSer
             int valor = Convert.ToInt32(GridView1.SelectedRow.Cells[0].Text);
 
             System.Web.HttpContext.Current.Session["Var"] = valor;
-            
+            System.Web.HttpContext.Current.Session["Var2"] = valor;
+
             Response.Redirect("http://localhost:60682/AddHoras.aspx", false);
         }
     }

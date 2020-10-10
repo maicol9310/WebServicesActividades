@@ -47,6 +47,14 @@
         </div> 
         <br />
         <div>
+            <asp:GridView ID="GridView1" runat="server" HorizontalAlign="Center" AutoGenerateColumns="False">
+                <Columns>
+                    <asp:BoundField DataField="Fecha" HeaderText="Fecha" />
+                    <asp:BoundField DataField="Horas" HeaderText="Horas" />
+                </Columns>
+            </asp:GridView>
+        </div>
+        <div>
              <a href="http://localhost:60682/AddActividades.aspx" class="button">Go to Back</a>
         </div>
     </form>
