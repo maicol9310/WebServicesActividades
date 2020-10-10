@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddActividades.aspx.cs" Inherits="WebAppSer.AddActividades" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="AddHoras.aspx.cs" Inherits="WebAppSer.AddHoras" %>
 
 <!DOCTYPE html>
 
@@ -32,28 +32,22 @@
     <form class="text-center" id="form1" runat="server">
         <div>
             <br />
-            <h5 >Agregar Actividades</h5>
+            <h5 >Agregar Horas</h5>
             <br />
-            <asp:Label ID="Label1" runat="server" Text="Descripcion : "></asp:Label>
+            <asp:Label ID="Label1" runat="server" Text="Fecha : "></asp:Label>
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+            <br />
+            <asp:Label ID="Label2" runat="server" Text="Horas : "></asp:Label>
+            <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+            <br />
+            <br />
             <asp:Button ID="Button1" runat="server" Text="Agregar" OnClick="Button1_Click" />
             <br />
-            <asp:Label ID="Label3" runat="server"></asp:Label>
-            <br />
-            <br />
+            <asp:Label ID="Label4" runat="server"></asp:Label>
         </div> 
-        <div >
-            <asp:GridView ID="GridView1" runat="server" HorizontalAlign="Center" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
-                <Columns>
-                    <asp:BoundField DataField="IdAct" HeaderText="ID" />
-                    <asp:BoundField DataField="Descr" HeaderText="Descripción" />                  
-                    <asp:ButtonField CommandName="Select" HeaderText="Agregar Horas" ShowHeader="True" Text="Horas" />                
-                </Columns>
-		    </asp:GridView>	
-        </div>
         <br />
         <div>
-             <a href="http://localhost:60682" class="button">Go to Back</a>
+             <a href="http://localhost:60682/AddActividades.aspx" class="button">Go to Back</a>
         </div>
     </form>
 </body>

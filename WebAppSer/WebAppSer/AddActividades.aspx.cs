@@ -46,9 +46,9 @@ namespace WebAppSer
         {
             int valor = Convert.ToInt32(GridView1.SelectedRow.Cells[0].Text);
 
-            int valor2 = valor;
-
-            Response.Redirect("http://localhost:51538/Servicios/WebServiceHoras.asmx", false);
+            System.Web.HttpContext.Current.Session["Var"] = valor;
+            
+            Response.Redirect("http://localhost:60682/AddHoras.aspx", false);
         }
     }
 }
