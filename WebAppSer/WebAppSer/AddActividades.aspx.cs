@@ -41,5 +41,14 @@ namespace WebAppSer
             TextBox1.Text = string.Empty;
 
         }
+
+        protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            int valor = Convert.ToInt32(GridView1.SelectedRow.Cells[0].Text);
+
+            int valor2 = valor;
+
+            Response.Redirect("http://localhost:51538/Servicios/WebServiceHoras.asmx", false);
+        }
     }
 }

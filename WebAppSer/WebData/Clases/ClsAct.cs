@@ -24,6 +24,7 @@ namespace WebData.Clases
             stConexion = obclsConexion.GetConexion();
         }
 
+
         public string stInsertarAct(string Descr, string Email)
         {
             try
@@ -35,6 +36,29 @@ namespace WebData.Clases
                 sqlCommand.CommandType = CommandType.StoredProcedure;
                 sqlCommand.Parameters.Add(new SqlParameter("@Descr", Descr));
                 sqlCommand.Parameters.Add(new SqlParameter("@Email", Email));
+
+
+                sqlCommand.ExecuteNonQuery();
+
+                return "Registro exitoso";
+            }
+
+            catch (Exception ex) { throw ex; }
+            finally { sqlConnection.Close(); }
+        }
+
+        public string InsertarTiempos(DateTime Fecha, int Horas, int IdActiv)
+        {
+            try
+            {
+                sqlConnection = new SqlConnection(stConexion);
+                sqlConnection.Open();
+
+                sqlCommand = new SqlCommand("InsertarHoras", sqlConnection);
+                sqlCommand.CommandType = CommandType.StoredProcedure;
+                sqlCommand.Parameters.Add(new SqlParameter("@Fecha", Fecha));
+                sqlCommand.Parameters.Add(new SqlParameter("@Horas", Horas));
+                sqlCommand.Parameters.Add(new SqlParameter("@IdActiv", IdActiv));
 
 
                 sqlCommand.ExecuteNonQuery();

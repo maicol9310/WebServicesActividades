@@ -67,11 +67,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Servicios\WebServiceHoras.asmx" />
     <Content Include="Servicios\WebServiceTest.asmx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Servicios\WebServiceHoras.asmx.cs">
+      <DependentUpon>WebServiceHoras.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="Servicios\WebServiceTest.asmx.cs">
       <DependentUpon>WebServiceTest.asmx</DependentUpon>
       <SubType>Component</SubType>
